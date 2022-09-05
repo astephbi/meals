@@ -1,0 +1,47 @@
+.container {
+  text-align: center;
+  flex: 1 0 20%;
+  border: 1px solid rgb(0, 255, 221);
+  border-radius: 20px;
+}
+img {
+  height: 300px;
+  width: 300px;
+  border-radius: 10px;
+}
+p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 300px;
+  padding: 10px;
+  text-align: center;
+  margin: 0 auto;
+}
+button {
+  background-color: rgba(115, 13, 13, 0.05);
+  border-radius: 8px;
+  border-width: 0;
+  color: #333333;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 10px 12px;
+  text-align: center;
+  transition: all 200ms;
+  vertical-align: baseline;
+  white-space: nowrap;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+a {
+  text-decoration: none;
+  color: rgb(53, 43, 43);
+}
